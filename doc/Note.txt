@@ -1,0 +1,42 @@
+[How to Build]
+You can compile .Net Standard and .Net Core projects directly on Windows.
+Copy built output to linux and execute them.
+
+[Runtime Environment]
+On Linux, you have to install .Net Core runtime before execute your code.
+You can search it with keywork "dotnet".
+
+Install Steps:
+step1 => istall Microsoft package signing key
+	wget https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb -O packages-microsoft-prod.deb
+	sudo dpkg -i packages-microsoft-prod.deb
+
+step2 => update your respository. 
+	apt update
+
+step3 => install runtime (choose version and runtime you need, following are just example)
+	apt install aspnetcore-runtime-3.1
+	apt install dotnet-runtime-3.1
+
+you can search related package by "apt search dotnet"
+
+[My Experiment VM]
+Ubuntu 18.04 LTS Server-x64, installed dotnet-runtime-3.1
+
+[Something Intreseting]
+I compiled my "hello world" project on my Win7 PC.
+It generated several files:
+	HelloWorld.deps.json
+	HelloWorld.dll
+	HelloWorld.exe
+	HelloWorld.pdb
+	HelloWorld.runtimeconfig.dev.json
+	HelloWorld.runtimeconfig.json
+
+On my VM, I tried to run HelloWorld.exe but faild.
+execution command:
+	dotnet HelloWorld.exe
+
+Then, I tried to execute HelloWorld.dll.... it works!
+It printed out my "Hello World"....
+

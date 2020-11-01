@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30621.155
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetStandard-DLL", "DotNetStandard-DLL\DotNetStandard-DLL.csproj", "{32102BE2-BCB8-41C4-8034-149E4FFFAB1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetCore-App", "DotNetCore-App\DotNetCore-App.csproj", "{1AED9821-7899-4929-AE74-A290350B8A38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32102BE2-BCB8-41C4-8034-149E4FFFAB1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32102BE2-BCB8-41C4-8034-149E4FFFAB1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32102BE2-BCB8-41C4-8034-149E4FFFAB1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32102BE2-BCB8-41C4-8034-149E4FFFAB1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AED9821-7899-4929-AE74-A290350B8A38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AED9821-7899-4929-AE74-A290350B8A38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AED9821-7899-4929-AE74-A290350B8A38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AED9821-7899-4929-AE74-A290350B8A38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D883CEF7-8A28-4FB7-BA98-DE3D5AE1459A}
+	EndGlobalSection
+EndGlobal
