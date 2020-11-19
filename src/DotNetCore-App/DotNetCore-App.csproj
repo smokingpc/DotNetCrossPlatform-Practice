@@ -6,4 +6,9 @@
     <RootNamespace>DotNetCore_App</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DotNetCore-DLL\DotNetCore-DLL.csproj" />
+    <ProjectReference Include="..\DotNetStandard-DLL\DotNetStandard-DLL.csproj" />
+  </ItemGroup>
+
 </Project>

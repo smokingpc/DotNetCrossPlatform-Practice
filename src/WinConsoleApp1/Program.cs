@@ -1,13 +1,18 @@
 ﻿using System;
-using DotNetCore_DLL;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using DotNetStandard_DLL;
+using DotNetCore_DLL;
 
-namespace DotNetCore_App
+namespace WinConsoleApp1
 {
     class Program
     {
         static void Main(string[] args)
         {
+            //.Net Framework APP can't reference to .Net Core DLL...
             CDotNetStandardDLL std = new CDotNetStandardDLL();
             CMyDotNetCoreClass core = new CMyDotNetCoreClass();
 
