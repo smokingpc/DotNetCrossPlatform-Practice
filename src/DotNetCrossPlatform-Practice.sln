@@ -13,9 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinConsoleApp1", "WinConsol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp1", "WindowsFormsApp1\WindowsFormsApp1.csproj", "{009F5690-6993-4F68-A495-56803C481D65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApp-DotNet5Win", "WindowsFormsApp2\WindowsFormsApp-DotNet5Win.csproj", "{47664030-B430-4F85-8A9F-E3C842C59B65}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetFramework-DLL", "DotNetFramework-DLL\DotNetFramework-DLL.csproj", "{3E54AC65-771A-40E3-B4A0-3FF33F0E812F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsFormsApp-DotNet5Win", "WindowsFormsApp2\WindowsFormsApp-DotNet5Win.csproj", "{47664030-B430-4F85-8A9F-E3C842C59B65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +45,6 @@ Global
 		{47664030-B430-4F85-8A9F-E3C842C59B65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47664030-B430-4F85-8A9F-E3C842C59B65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47664030-B430-4F85-8A9F-E3C842C59B65}.Release|Any CPU.Build.0 = Release|Any CPU
-		{3E54AC65-771A-40E3-B4A0-3FF33F0E812F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{3E54AC65-771A-40E3-B4A0-3FF33F0E812F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{3E54AC65-771A-40E3-B4A0-3FF33F0E812F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{3E54AC65-771A-40E3-B4A0-3FF33F0E812F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
